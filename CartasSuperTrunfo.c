@@ -39,6 +39,13 @@ int main() {
   
 
   // Área para exibição dos dados da cidade
+  printf("Estado: %c\n", estado);
+  printf("Codigo: %s\n", codigo);
+  printf("Cidade: %s\n", cidade);
+  printf("Populacao: %d\n", populacao);
+  printf("Area: %.2f\n", area);
+  printf("PIB: %.2f\n", PIB);
+  printf("Numero de pontos turisticos: %d\n", numero_de_pontos_turisticos);
 
 return 0;
 } 
