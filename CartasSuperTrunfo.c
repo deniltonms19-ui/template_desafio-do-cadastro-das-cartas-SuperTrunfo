@@ -16,6 +16,27 @@ int main() {
 
 
   // Área para entrada de dados
+  printf("didgite seu Estado");
+  scanf("%c", &estado);
+
+  printf("digite o codigo da cidade");
+  scanf("%s", codigo);
+
+  printf("digite o nome da cidade");
+  scanf("%s", cidade);
+
+  printf("digite a populacao da cidade");
+  scanf("%d", &populacao);
+
+  printf("digite a area da cidade");
+  scanf("%f", &area);
+
+  printf("digite o PIB da cidade");
+  scanf("%f", &PIB);
+
+  printf("digite o numero de pontos turisticos da cidade");
+  scanf("%d", &numero_de_pontos_turisticos);
+  
 
   // Área para exibição dos dados da cidade
 
