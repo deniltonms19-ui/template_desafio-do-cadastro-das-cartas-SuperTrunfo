@@ -23,7 +23,7 @@ int main() {
   int numero_de_pontos_turisticos2;
 
 
-// Área para entrada de dados
+// Área para entrada de dados da 1ª carta
 
   printf("digite seu Estado:");
   scanf("%c", &estado);
@@ -45,8 +45,10 @@ int main() {
 
   printf("digite o numero de pontos turisticos da cidade:");
   scanf("%d", &numero_de_pontos_turisticos);
+
+  // Área para entrada de dados da 2ª carta
   
-  printf("digite seu Estado:");
+  printf("\ndigite seu Estado:");
   scanf(" %c", &estado2);
 
   printf("digite o codigo da cidade:");
